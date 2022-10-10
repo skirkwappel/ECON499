@@ -1,4 +1,6 @@
 use "/Users/sarahkirker/Desktop/Thesisdata/Main.dta"
+
+
 *Panel A: OLS 
 eststo: reg countrisk_24 permitA badweat advcon i.year if peak==1 & season == 1, robust
 eststo: reg countrisk_24 permitA crowding advcon badweat i.year if peak==1 & season == 1, robust
